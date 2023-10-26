@@ -1,0 +1,218 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+   :root{
+    --font-base: "Bai Jamjuree";
+   }
+
+
+  body {
+    background:rgb(18, 7, 43);
+    color: rgb(245, 248, 250);
+    font-family:var(--font-base), sans-serif;
+
+  }
+
+  h1,h2,h3,h4,h5,h6{
+    color:rgb(253, 245, 245);
+    font-weight: 700;
+  }
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 207);
+    transition: all 0.4s ease;
+}
+a:hover{
+    color: rgb(255, 255, 207);
+}
+
+img{
+    width: 100%;
+    
+}
+.bold{
+  
+  color: rgb(22, 42, 126);
+  
+}
+.navbar{
+  background-color: rgb(244, 158, 52);
+}
+#contant-wrapper{
+  
+  padding-top:80px;
+}
+.full-height{
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+}
+
+
+@media (min-width: 992px) {
+  .navbar{
+    min-height: 100vh;
+    width: 240px;
+    /* background-image: url("../img/marek-piwnicki-dqx3HQDrXuw-unsplash.jpg"); */
+    background-color:rgb(159, 103, 34) ;
+    
+    background-size: cover;
+    background-position: center;
+  }
+  
+}
+.navbar .nav-link{
+  font-family: 700;
+  text-transform: uppercase;
+  color:rgb(255, 182, 182);
+}
+.navbar .nav-link:hover{
+  color: rgb(0, 2, 12);
+}
+
+
+
+.btn{
+  padding: 6px 12px 13px;
+  font-weight: 700;
+  background-color: rgb(244, 158, 52);
+}
+.link-custom{
+  
+  border-radius: 5px;
+  font-weight: 400;
+  
+}
+  @media (min-width: 992px) {
+    .padd{
+      padding-left: 240px;
+      padding-top:180px;
+    }
+    .btn{
+      padding: 12px 30px 18px;
+    font-weight: 700;
+    background-color: rgb(244, 158, 52);
+  }
+  .link-custom{
+    padding: 4px 30px 30px;
+    .text-brd{
+      color: rgb(244, 158, 52);
+    }
+  }
+}
+.text-brd{
+  color:rgb(244, 158, 52) ;
+}
+.link-custom::after{
+  color:rgb(119, 77, 27) ;
+  text-decoration: underline;
+}
+.link-custom:hover{
+  color:rgb(244, 158, 52) ;
+ 
+}
+.service{
+  /* width: 400px;
+  height: 350px; */
+}
+.serve1{
+  padding-top: 5px;
+  
+  
+}
+.serve{
+  padding-top: 50px;
+}
+.pro{
+  padding-left: 60px;
+}
+@media (min-width: 992px) {
+.serve1{
+  /* width: 400px;
+  height: 350px; */
+  padding-top: 10px;
+  padding-left: 240px;
+}
+  .pro{
+    padding-left: 240px;
+  }
+  .serve{
+    padding-left: 240px;
+    padding-top: 400px;
+  }
+}
+.fur{
+  border: 2px solid grey;
+  border-radius: 7px;
+  width: 270px;
+  height: 280px;
+  margin-top: 20px;
+  margin-right:25px ;
+  margin-bottom: 30px;
+  background-color: rgb(107, 91, 171);
+}
+
+.desk{
+  border: 1px solid rgb(244, 158, 52);
+  border-radius: 7px;
+  width: 60px;
+  height: 60px;
+  margin-top: 7px;
+  background-color: rgb(244, 158, 52);
+}
+.desk img {
+  padding: 9px;
+}
+.heading{
+  margin-top: 7px;
+}
+.fur:hover{
+  box-shadow: 10px 10px 8px rgb(86, 74, 24) ;
+}
+
+.proj{
+  width: 410px;
+  padding: 0;
+ 
+  border-radius: 10px;
+  margin: 10px;
+  background-color: rgb(107, 91, 171);
+}
+.proj:hover{
+  box-shadow: 10px 10px 8px rgb(86, 74, 24) ;
+  
+}
+.proj1{
+  
+  border-radius: 10px;
+}
+@media (min-width: 992px){
+.work{
+  margin-left: 260px ;
+}}
+@media (min-width: 992px){
+  .head1{
+    padding-left: 250px;
+    padding-top: 160px;
+  }
+.container1{
+  padding-left: 250px;
+}}
+.about{
+  border: 2px solid  rgb(107, 91, 171) ;
+  border-radius: 6px;
+  width: 450px;
+  
+  margin: 5px;
+  padding: 30px;
+  background-color:  rgb(107, 91, 171);
+}
+@media (min-width: 992px){
+.container2{
+  margin-top:260px ;
+  margin-left: 290px;
+}}
+.icon{
+  height: 40px;
+  width: 40px;
+}
